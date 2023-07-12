@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -180,4 +184,276 @@ line-height: 35px;
 text-decoration-line: underline;
 margin-top: 75px;
   }
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+   margin-left: 120px;
+  }
   
+  .logo1,
+  .logo2,
+  .logo3 {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .p1,
+.p2,
+.p3 {
+  display: inline-block;
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration-line: none;
+  margin-top: 10px;
+}
+.sale-container{
+  width: 1922px;
+height: 620px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 128px;
+}
+.sale-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1922px;
+  height: 620px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 128px;
+}
+
+.sale-heading{
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #272727;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left:423px ;
+}
+.para2{
+  color: #272727;
+  margin-top: 10px;
+  margin-bottom: auto;
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+
+}
+
+
+.sign {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  padding: 15px 38px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.sign-banner {
+  width: 318px;
+  height: 420px;
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-left: 215px;
+  margin-right: 100px;
+}
+
+.offf{
+  color: #e55473;
+}
+.tag{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 128px;
+}
+.tag1{
+  width: 594px;
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-left: 550px;
+margin-top: 10px;
+}
+
+.flowerjpg {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+  width: 342px;
+  height: 396px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+.get{
+  width: 1440px;
+height: 449px;
+flex-shrink: 0;
+border-radius: 8px;
+background: url('Flower Asset/Rectangle 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+margin-top:128px ;
+margin-left: 120px;
+
+
+}
+.Deals{
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 150px;
+}
+
+.coup {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.em1 {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  text-align: left;
+  padding-left: 30px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 250px;
+  margin-top: 15px;
+
+}
+
+.sub1{
+  width: 150px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 15px;
+margin-top: 17px;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.shopp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1922px;
+  height: 449px;
+  flex-shrink: 0;
+  background: #111010;
+  margin-top: 128px;
+}
+
+.sp1 {
+  color: #E55473;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.sh {
+  color: #E55473;
+}
+
+.Fclass {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.shopp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
